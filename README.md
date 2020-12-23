@@ -9,7 +9,7 @@ In this repository, we presented the original codes for developing a **new local
 ### Summary
 A new local meshless approach based on **radial basis functions (RBFs)** is presented to price the **options** under the **Black–Scholes model**. The global RBF approximations derived from the conventional global collocation method usually lead to ill-conditioned matrices. Employing the idea of local approximants of the **finite difference (FD)** method and combining it with the **radial basis function (RBF)** method can result in a local meshless approach such as **RBF-FD**. It removes the difficulty of ill-conditionness of the origi- nal method. The new proposed approach is unconditionally stable as it is shown by Von-Neumann stability analysis. It is fast and produces high accurate results as shown in numerical experiments. Moreover, we took into account the variation of shape parameter and analyzed numerically the behavior of the RBF-FD method.
 
-Please refer to abovw articles for more information.
+Please refer to above articles for more information.
 
 ### Cite
 To use the codes for academic research, please cite via:
